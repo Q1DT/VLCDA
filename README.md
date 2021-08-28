@@ -1,6 +1,11 @@
 # VLCDA
 This is the implementation of paper "Accurately Predicting circRNA-disease Associations Using Variational Graph Auto-encoders and LightGBM".
 
+## Related Files
+
+### Dataset:
+
+```
 ========================================================================================
 | FILE NAME            | DESCRIPTION                                                   |
 ========================================================================================
@@ -11,3 +16,14 @@ This is the implementation of paper "Accurately Predicting circRNA-disease Assoc
 |circRNA number ID.txt | id of circRNA.                                                |
 |disease number ID.txt | id of disease.                                                |
 |exoRBase-circR2disease id conversion.txt | Unify the format of circRNA id data.       |
+```
+### Code:
+
+```
+========================================================================================
+| FILE NAME       | DESCRIPTION                                                        |
+========================================================================================
+| XGBCDA.py       | function predicting potential circRNA-disease associations.        |
+| feature_extract.py  | function extracting feature                                    |
+```
+
